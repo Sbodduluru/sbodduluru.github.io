@@ -1,44 +1,197 @@
-<!doctype html>
-<html lang="en">
-  <head>
+<html lang="en"><head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&amp;display=swap" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <style>
+
+      .navbar-brand {
+        font-family: 'Yellowtail', cursive;
+        font-size: 2em;
+      }
+
+    </style>
+
+    <title>Home | Srilakshmi Bodduluru</title>
+
   </head>
-  <div> 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>  
-    </div>
   <body>
-    <h1>Hello, world!</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4">
+
+      <div class="container">
+
+        <a class="navbar-brand" href="/index.html">Matt Jackson</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item px-4">
+              <a class="nav-link" href="/index.html">Projects</a>
+            </li>
+
+            <li class="nav-item px-4">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+
+            <li class="nav-item px-4">
+              <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+    <div class="container">
+
+      <h2 class="py-5">Projects &amp; Code Samples</h2>
+
+      <div class="row my-3">
+
+        <div class="col-sm-6 d-flex">
+          <div class="card flex-fill">
+            <div class="card-body">
+              <h5 class="card-title">Sentiment Analysis: How is Your Brand Viewed on Twitter?</h5>
+              <p class="card-text">Project creating a sentiment models to analyze tweets in real-time via a web-based dashboard.</p>
+              <a href="https://github.com/mbjackson/sentiment-analysis-tweets/" class="btn btn-primary">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 d-flex">
+          <div class="card flex-fill">
+            <div class="card-body">
+              <h5 class="card-title">Credit Card Fraud Detection Project</h5>
+              <p class="card-text">Bio Coming Soon (DSC 680 Project #2)... </p>
+              <a href="https://github.com/mbjackson/credit-card-fraud-detection-project" class="btn btn-primary">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row my-3">
+
+        <div class="col-sm-6 d-flex">
+          <div class="card flex-fill">
+            <div class="card-body">
+              <h5 class="card-title">Image Classification Project</h5>
+              <p class="card-text">Bio Coming Soon (DSC 680 Project #3)... </p>
+              <a href="https://github.com/mbjackson/image-classification-project" class="btn btn-primary">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 d-flex">
+          <div class="card flex-fill">
+            <div class="card-body">
+              <h5 class="card-title">Movie Recommendation Engine</h5>
+              <p class="card-text">ALS reccomendation engine using movie review data. Reccomendations made using Apache Spark and PySpark.</p>
+              <a href="https://github.com/mbjackson/movie-reccomendation-engine" class="btn btn-primary">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row my-3">
+
+        <div class="col-sm-6 d-flex">
+          <div class="card flex-fill">
+            <div class="card-body">
+              <h5 class="card-title">Creating a Small Data Warehouse</h5>
+              <p class="card-text">Apache Spark ad PySpark being used to create a small data warehouse. Also shows off more complicated SQL statements.</p>
+              <a href="https://github.com/mbjackson/creating-a-small-data-warehouse" class="btn btn-primary">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 d-flex">
+          <div class="card flex-fill">
+            <div class="card-body">
+              <h5 class="card-title">Airplane Safety Dashboard</h5>
+              <p class="card-text">Dashboard showing metrics from multiple data sources related to safety in the Airline industry.</p>
+              <a href="#" class="btn btn-primary">Coming Soon...</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row my-3">
+
+        <div class="col-sm-6 d-flex">
+          <div class="card flex-fill">
+            <div class="card-body">
+              <h5 class="card-title">Custom Web Scraping Python Class</h5>
+              <p class="card-text">Apache Spark ad PySpark being used to create a small data warehouse. Also shows off more complicated SQL statements.</p>
+              <a href="#" class="btn btn-primary">Coming Soon...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 d-flex">
+          <div class="card flex-fill">
+            <div class="card-body">
+              <h5 class="card-title">Recurrent Neural Network for Forecasting (Keras)</h5>
+              <p class="card-text">Using RNN in Keras to Forecast from Random Data Points</p>
+              <a href="#" class="btn btn-primary">Coming Soon...</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row my-3">
+
+      <div class="col-sm-6 d-flex">
+        <div class="card flex-fill">
+          <div class="card-body">
+            <h5 class="card-title">Naive Bayes Model</h5>
+            <p class="card-text">Creating a Naive Bayes model for binary classification.</p>
+            <a href="#" class="btn btn-primary">Coming Soon...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 d-flex">
+        <div class="card flex-fill">
+          <div class="card-body">
+            <h5 class="card-title">Building a Chatbot with Python and Keras</h5>
+            <p class="card-text">Using RNN in Keras to Forecast from Random Data Points</p>
+            <a href="#" class="btn btn-primary">Coming Soon...</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-</html>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  
+
+
+</body></html>
